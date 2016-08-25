@@ -1,4 +1,8 @@
 {
   "name": "to-do-meanstack",
-  "main": "server.js"
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10"
+  }
 }
