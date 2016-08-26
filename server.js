@@ -9,6 +9,7 @@
     var methodOverride = require('method-override'); // simulate DELETE and PUT request(express 4)
     var database = require('./config/database');
     var port = process.env.PORT || 8888;       // set the port
+    // var database = mongoose.connect('mongodb://localhost:27017/todo');
 
 // configuration ============================================
     mongoose.connect(database.url);    // connect to the mongodb database hosted on localhost
